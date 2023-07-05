@@ -1,0 +1,84 @@
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 4.063rem;
+    /* background-color: antiquewhite; */
+    z-index: 2;
+    border-bottom: 0.063rem solid rgb(240, 232, 255);
+}
+
+.header_div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_div-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 4.063rem;
+    font-size: 1.563rem;
+    font-weight: 600;
+    color: white;
+    /* background-color: aliceblue; */
+}
+
+.header_div-menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100vw;
+    height: 4.063rem;
+    /* background-color: aquamarine; */
+    padding-right: 1.875rem;
+}
+
+.header_div-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 4.063rem;
+    /* background-color: bisque; */
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+.header_div-education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.875rem;
+    height: 4.063rem;
+    /* background-color: bisque; */
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+.header_div-study{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.375rem;
+    height: 4.063rem;
+    /* background-color: bisque; */
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+.header_div-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.875rem;
+    height: 4.063rem;
+    /* background-color: rgb(166, 134, 95); */
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
