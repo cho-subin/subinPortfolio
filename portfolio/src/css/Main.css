@@ -85,19 +85,25 @@ main{
     align-items: center;
     flex-direction: row;
     width: 100vw;
-    height: 15%;
+    height: 5rem;
     /* border: 0.063rem solid #576187; */
     padding-right: 1rem;
     box-sizing: border-box;
 }
 
 .Main_div-btn{
-    width: 5rem;
-    height: 6.25rem;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem;
+
     /* border: 0.063rem solid #576187; */
 }
 
 .Main_div-btn > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 3.75rem;
     height: 3.75rem;
     background-color: white;
@@ -105,4 +111,30 @@ main{
     border: 0;
     outline: 0;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.Main_div-btn>button:hover>.btn_text{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 3.75rem;
+    height: 3.75rem;
+    opacity: 90%;
+}
+
+.Main_div-btn>button:hover>.img{
+    display: none;
+}
+
+.btn_text{
+    display: none;
+}
+
+.img {
+    width: 4.2rem;
+    height: 4.2rem;
+    opacity: 80%;
 }
