@@ -1,5 +1,8 @@
 import React from 'react'
-import {Btn} from '../../page/Main';
+export interface Btn {
+    text: string
+    img: string
+}
 
 const Button:React.FC<Btn> = ({ text, img }) => {
 

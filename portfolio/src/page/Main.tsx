@@ -5,11 +5,6 @@ import github from '../img/githubIcon.png';
 import blog from '../img/blog.jpeg';
 import '../css/Main.css';
 
-export interface Btn {
-    text: string
-    img: string
-}
-
 const Main:React.FC = () => {
   return (
     <main className='Main'>
