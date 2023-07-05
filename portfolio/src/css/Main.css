@@ -1,0 +1,108 @@
+main{
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linear_gradient{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #DAC9FF, #B6C6FF);
+}
+
+.Main_div-introContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 85%;
+    /* border: 0.063rem solid #576187; */
+    margin-top: 7%;
+}
+
+.Main_div-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 18.438rem;
+    /* border: 0.063rem solid #576187; */
+}
+
+.Main_div-intro > span:nth-child(1){
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Main_div-intro > span:nth-child(3){
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: -0.625rem;
+    text-align: center;
+}
+
+.Main_div-intro > span:last-child{
+    font-size: 3.75rem;
+    color: #ffffff;
+    font-weight:700;
+    text-align: center;
+}
+
+.Main_div-subintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 6rem;
+    /* border: 0.063rem solid #576187; */
+}
+
+.Main_div-subintro > span{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.Main_div-btnContainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 15%;
+    /* border: 0.063rem solid #576187; */
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+.Main_div-btn{
+    width: 5rem;
+    height: 6.25rem;
+    /* border: 0.063rem solid #576187; */
+}
+
+.Main_div-btn > button{
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: white;
+    border-radius: 31.25rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
