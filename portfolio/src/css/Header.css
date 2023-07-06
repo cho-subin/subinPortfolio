@@ -35,25 +35,26 @@
     padding-right: 1.875rem;
 }
 
-.header_div-project{
+.header_div-headBtn{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 4.063rem;
+    /* height: 4.063rem; */
     /* background-color: bisque; */
     font-size: 1.25rem;
     font-weight: 600;
     color: white;
+    margin: 1rem;
+    cursor: pointer;
 }
 
-.header_div-education{
+/* .header_div-education{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 6.875rem;
     height: 4.063rem;
-    /* background-color: bisque; */
+    background-color: bisque;
     font-size: 1.25rem;
     font-weight: 600;
     color: white;
@@ -65,11 +66,11 @@
     align-items: center;
     width: 4.375rem;
     height: 4.063rem;
-    /* background-color: bisque; */
+    background-color: bisque;
     font-size: 1.25rem;
     font-weight: 600;
     color: white;
-}
+} */
 
 .header_div-line{
     display: flex;
