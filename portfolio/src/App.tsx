@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/header/Header';
 import Education from './page/Education';
 import Main from './page/Main';
 import Project from './page/Project';
 import Study from './page/Study';
-import Header from './components/Header';
 
 function App() {
   return (
