@@ -1,16 +1,15 @@
 
-
 [
     {   
         "title" : "Modira 팀프로젝트",
         "github" : "https://github.com/modiraa/modira_FE",
         "img": "/img/모디라-이미지1.png",
         "skills" : {
-            "skill1":"React",
-            "skill2":"Redux",
-            "skill3":"Axios",
-            "skill4":"Soket-clinet",
-            "skill5":"Stompjs"
+            "skill1":"/img/react로고.png",
+            "skill2":"/img/redux로고.png",
+            "skill3":"/img/axios로고.png",
+            "skill4":"/img/소켓로고.png",
+            "skill5":"/img/스톰프로고.png"
         },
         "personnel":"6명",
         "term":{
@@ -31,9 +30,9 @@
         "github" : "https://github.com/whtnqls124578/velog-clone-nextjs",
         "img": "/img/velog.png",
         "skills" : {
-            "skill1":"next.js",
-            "skill2":"TypeScript",
-            "skill3":"ReduxToolkit"
+            "skill1":"/img/nextjs로고.jpeg",
+            "skill2":"/img/Typescript.png",
+            "skill3":"/img/redux로고.png"
         },
         "personnel":"2명",
         "term":{
@@ -53,9 +52,9 @@
         "github" : "https://subincoding.tistory.com/9",
         "img": "../img/모디라대구.jpeg",
         "skills" : {
-            "skill1":"React",
-            "skill2":"Redux",
-            "skill3":"Axios"
+            "skill1":"/img/react로고.png",
+            "skill2":"/img/redux로고.png",
+            "skill3":"/img/axios로고.png"
         },
         "personnel":"6명",
         "term":{
