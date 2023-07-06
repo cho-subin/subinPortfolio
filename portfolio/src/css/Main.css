@@ -38,6 +38,32 @@ main{
     /* border: 0.063rem solid #576187; */
 }
 
+.Main_div-introTyping::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 3px solid #d8d6ff;
+    animation: cursor .9s infinite steps(2);
+    opacity: 50%;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+
+    49% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .Main_div-intro > span:nth-child(1){
     font-size: 2.5rem;
     color: #ffffff;
@@ -52,6 +78,7 @@ main{
     margin-top: 1.25rem;
     margin-bottom: -0.625rem;
     text-align: center;
+    /* background-color: #B6C6FF; */
 }
 
 .Main_div-intro > span:last-child{
