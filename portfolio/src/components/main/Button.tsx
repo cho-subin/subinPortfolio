@@ -1,20 +1,21 @@
-import React from 'react'
-export interface Btn {
+import React from 'react';
+interface Btn {
     text: string
     img: string
+    link: string
 }
 
-const Button:React.FC<Btn> = ({ text, img }) => {
+const Button:React.FC<Btn> = ({ text, img, link }) => {
 
     const handleBtn = () => {
-
+        window.open(link, '_blank');
     }
 
     return (
         <div className='Main_div-btn'>
-            <button>
+            <button onClick={handleBtn}>
                 <span className='btn_text'>{text}</span>
-                <img className='img' src={img} alt={text} onClick={handleBtn} />
+                <img className='img' src={img} alt={text} />
             </button>
         </div>
     )

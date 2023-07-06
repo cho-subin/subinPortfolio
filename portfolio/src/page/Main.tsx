@@ -17,8 +17,8 @@ const Main:React.FC = () => {
                   </div>
             </div>
               <div className='Main_div-btnContainer'>
-                  <Button img={github} text={'github'}/>
-                  <Button img={blog} text={'blog'} />
+          <Button img={github} text={'github'} link={'https://github.com/whtnqls124578'}/>
+          <Button img={blog} text={'blog'} link={'https://subincoding.tistory.com/'}/>
               </div>
               
         </div>
