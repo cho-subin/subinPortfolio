@@ -18,7 +18,7 @@ const Skills: React.FC<propsSkills> = ({skills}) => {
             {Object.entries(skills).map(([key, value]) => {
                 return (
                     <div className='project_div-right-skillBtn' key={key}>
-                        <span>{value}</span>
+                        <img src={value} alt='로고'/>
                     </div>
                 );
             })}

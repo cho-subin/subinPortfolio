@@ -14,7 +14,7 @@ const Right: React.FC<Projects> = ({ title,  skills, img, term, personnel, text,
     return (
         <div className='project_div-right'>
             <div className='project_div-right-box'>
-                <img src={img} alt={title}/>
+                < img className='project_div-right-bgi' src={img} alt={title}/>
                 <div className='project_div-hoverBox'>
                     <ProjectTitle title={title} />
                     <ProjectSkills skills={skills} />
