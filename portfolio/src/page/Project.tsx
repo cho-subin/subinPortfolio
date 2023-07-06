@@ -27,6 +27,7 @@ const Project: React.FC = () => {
         <Right
           title={project[currentIndex].title}
           github={project[currentIndex].github}
+          img={project[currentIndex].img}
           skills={project[currentIndex].skills}
           personnel={project[currentIndex].personnel}
           term={project[currentIndex].term}

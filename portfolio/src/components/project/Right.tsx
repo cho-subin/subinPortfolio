@@ -5,17 +5,16 @@ import ProjectTitle from './Right/ProjectTitle';
 import ProjectSkills from './Right/ProjectSkills';
 import ProjectDetail from './Right/ProjectDetail';
 import ProjectBoxTitle from './Right/ProjectBoxTitle';
-import modiraDague from '../../img/모디라대구.jpeg';
-import modira from '../../img/모디라-이미지1.png';
 import { Projects } from '../../data/Project';
+import test from '../../img/모디라-이미지1.png'
 
-const Right: React.FC<Projects> = ({ title,  skills, term, personnel, text, github }) => {
+const Right: React.FC<Projects> = ({ title,  skills, img, term, personnel, text, github }) => {
 
 
     return (
         <div className='project_div-right'>
             <div className='project_div-right-box'>
-                <img src={modiraDague} alt=''/>
+                <img src={img} alt={title}/>
                 <div className='project_div-hoverBox'>
                     <ProjectTitle title={title} />
                     <ProjectSkills skills={skills} />

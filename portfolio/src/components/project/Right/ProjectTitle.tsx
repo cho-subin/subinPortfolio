@@ -5,6 +5,8 @@ interface propsTitle{
 }
 
 const ProjectTitle: React.FC<propsTitle> = ({title}) => {
+
+    console.log(title)
     return (
         <div className='project_div-right-boxTitle'>
             <span>{title}</span>
