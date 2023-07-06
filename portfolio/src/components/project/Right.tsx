@@ -1,30 +1,33 @@
-import React, { useState } from 'react'
-import ProjectPersonnel from './Right/ProjectPersonnel'
-import ProjectTerm from './Right/ProjectTerm'
-import ProjectTitle from './Right/ProjectTitle'
-import ProjectSkills from './Right/ProjectSkills'
-import ProjectDetail from './Right/ProjectDetail'
-import ProjectBoxTitle from './Right/ProjectBoxTitle'
-import projectData from '../../data/Project.json';
-import { Project } from '../../data/Project';
+import React from 'react';
+import ProjectPersonnel from './Right/ProjectPersonnel';
+import ProjectTerm from './Right/ProjectTerm';
+import ProjectTitle from './Right/ProjectTitle';
+import ProjectSkills from './Right/ProjectSkills';
+import ProjectDetail from './Right/ProjectDetail';
+import ProjectBoxTitle from './Right/ProjectBoxTitle';
+import modiraDague from '../../img/모디라대구.jpeg';
+import modira from '../../img/모디라-이미지1.png';
+import { Projects } from '../../data/Project';
 
-const Right = () => {
+const Right: React.FC<Projects> = ({ title,  skills, term, personnel, text, github }) => {
 
-    const [project, setProject] = useState<Project[]>(projectData);
-    const [currentIndex, setCurrentIndex] = useState<number>(1);
 
     return (
         <div className='project_div-right'>
             <div className='project_div-right-box'>
-                <ProjectTitle title = {project[currentIndex].title}/>
-                <ProjectSkills skills={project[currentIndex].skills} />
-                <ProjectTerm term={project[currentIndex].term}/>
-                <ProjectPersonnel personnel={project[currentIndex].personnel}/>
-                <ProjectDetail text={project[currentIndex].text}/>
+                <img src={modiraDague} alt=''/>
+                <div className='project_div-hoverBox'>
+                    <ProjectTitle title={title} />
+                    <ProjectSkills skills={skills} />
+                    <ProjectTerm term={term} />
+                    <ProjectPersonnel personnel={personnel} />
+                    <ProjectDetail text={text} />
+                </div>
+                
             </div>
-            <ProjectBoxTitle github={project[currentIndex].github} title={project[currentIndex].title} />
+            <ProjectBoxTitle github={github} title={title} />
         </div>
     )
 }
 
-export default Right
+export default Right;
