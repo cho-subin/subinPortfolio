@@ -4,11 +4,13 @@ import '../css/Study.css';
 import superCoding from '../img/super.jpeg';
 import blog from '../img/blog.jpeg';
 import JS from '../img/XL.jpeg';
+import Header from '../components/header/Header';
 
-const Study = () => {
-
+const Study: React.FC = () => {
+  
   return (
     <main className='study'>
+      <Header current={'Study'} />
       <div className='study_div-container'>
         <div className='study_div-top'>
           <div className='study_div-title'>

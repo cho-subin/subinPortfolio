@@ -1,9 +1,16 @@
 import React from 'react';
 
-const HeadLine: React.FC = () => {
+interface currentPage{
+    current : string
+}
+
+const HeadLine: React.FC<currentPage> = ({ current }) => {
     return (
         <div className='header_div-line'>
-            <span>/</span>
+            <span style={
+                current === "Portfolio" ? { color: '#ffffff' } : { color: '#dbdbdb' }
+            }>
+                /</span>
         </div>
     )
 }

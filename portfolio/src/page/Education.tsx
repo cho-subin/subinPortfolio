@@ -1,5 +1,6 @@
 import React from 'react';
 import EducationBox from '../components/education/EducationBox';
+import Header from '../components/header/Header';
 import '../css/Education.css';
 
 const Education: React.FC = () => {
@@ -7,6 +8,7 @@ const Education: React.FC = () => {
 
   return (
     <main className='education'>
+      <Header current={'Education'} />
       <div className='education_div-container'>
         <div className='education_div-top'>
           <div className='education_div-title'>
