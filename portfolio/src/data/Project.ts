@@ -1,6 +1,7 @@
 export interface Projects {
   title: string;
   github: string;
+  img: string;
   skills: {
     skill1: string;
     skill2: string;

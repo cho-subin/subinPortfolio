@@ -9,7 +9,7 @@ const ProjectBoxTitle: React.FC<propsGithub> = ({ title, github }) => {
     return (
         <div className='project_div-right-title'>
             <span>{title}</span>
-            <span>{github}</span>
+            <span onClick={() => { window.open(github)}}>{github}</span>
         </div>
     )
 }
