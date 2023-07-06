@@ -285,3 +285,16 @@ main {
     font-weight: bold;
     margin-bottom: 0.313rem;
 }
+
+.project_div-right-title>span:last-child{
+    width: 17.5rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 0.313rem;
+    color: rgb(154, 154, 154);
+    cursor: pointer;
+}
+
+.project_div-right-title>span:last-child:hover {
+    color: rgb(79, 79, 79);
+}
