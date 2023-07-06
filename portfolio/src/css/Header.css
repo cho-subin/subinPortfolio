@@ -1,5 +1,6 @@
 .header{
     position: absolute;
+    top: 0;
     width: 100vw;
     height: 4.063rem;
     /* background-color: antiquewhite; */
@@ -48,29 +49,28 @@
     cursor: pointer;
 }
 
-/* .header_div-education{
+.header_div-headBtn:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6.875rem;
-    height: 4.063rem;
-    background-color: bisque;
     font-size: 1.25rem;
     font-weight: 600;
-    color: white;
+    color: #7893ff;
+    margin: 1rem;
+    cursor: pointer;
 }
 
-.header_div-study{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 4.375rem;
-    height: 4.063rem;
-    background-color: bisque;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: white;
-} */
+.header_span-headBtn{
+    color: #B5B5B5;
+}
+
+.header_span-headBtn:hover {
+    color: #b6c4ff;
+}
+
+.header_span-headBtn.Current {
+    color: #7893ff;
+}
 
 .header_div-line{
     display: flex;

@@ -3,19 +3,24 @@ import '../../css/Header.css';
 import HeadBtn from './HeadBtn';
 import HeadLine from './HeadLine';
 
-const Header: React.FC = () => {
+interface currentPage {
+  current: string;
+}
+
+const Header: React.FC<currentPage> = ({ current }) => {
+
   return (
     <header className='header'>
       <div className='header_div-container'>
         <div className='header_div-title'>
-          <HeadBtn address={'/'} text={'Portfolio'} />
+          <HeadBtn address={'/'} text={'Portfolio'} current={current} />
         </div>
         <div className='header_div-menu'>
-          <HeadBtn address={'/project'} text={'Project'} />
-          <HeadLine/>
-          <HeadBtn address={'/education'} text={'Education'} />
-          <HeadLine />
-          <HeadBtn address={'/study'} text={'Study'} />
+          <HeadBtn address={'/project'} text={'Project'} current={current} />
+          <HeadLine current={current}/>
+          <HeadBtn address={'/education'} text={'Education'} current={current} />
+          <HeadLine current={current} />
+          <HeadBtn address={'/study'} text={'Study'} current={current} />
         </div>
       </div>
     </header>

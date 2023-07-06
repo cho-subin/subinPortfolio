@@ -4,10 +4,12 @@ import Title from '../components/main/Title';
 import github from '../img/githubIcon.png';
 import blog from '../img/blog.jpeg';
 import '../css/Main.css';
+import Header from '../components/header/Header';
 
 const Main:React.FC = () => {
   return (
     <main className='Main'>
+        <Header current={'Portfolio'} />
         <div className="linear_gradient">
             <div className='Main_div-introContainer'>
                   <Title/>
