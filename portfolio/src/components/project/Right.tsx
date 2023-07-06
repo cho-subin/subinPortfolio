@@ -6,7 +6,6 @@ import ProjectSkills from './Right/ProjectSkills';
 import ProjectDetail from './Right/ProjectDetail';
 import ProjectBoxTitle from './Right/ProjectBoxTitle';
 import { Projects } from '../../data/Project';
-import test from '../../img/모디라-이미지1.png'
 
 const Right: React.FC<Projects> = ({ title,  skills, img, term, personnel, text, github }) => {
 
