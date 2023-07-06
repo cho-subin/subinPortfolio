@@ -1,7 +1,10 @@
 # subinPortfolio
 <br>
 
-## 👀 react + typescript
+## 👀 사용 스택
+
+1. react
+2. typescript
 
 <br>
 
