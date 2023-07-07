@@ -465,7 +465,7 @@
         width: 100vw;
         height: 5rem;
 
-        border: 0.063rem solid #576187;
+        /* border: 0.063rem solid #576187; */
     }
 
     .Main_div-btn {
@@ -627,7 +627,7 @@
         color: #ffffff;
         font-weight: 400;
         text-align: center;
-        line-height: 1.7rem;
+        line-height: 1.35rem;
     }
 
     .Main_div-btnContainer {
@@ -648,6 +648,7 @@
         width: 4rem;
         height: 4rem;
         margin-right: 1.25rem;
+        margin-bottom: 3rem;
 
         /* border: 0.063rem solid #576187; */
     }
