@@ -5,6 +5,7 @@ import superCoding from '../img/super.jpeg';
 import blog from '../img/blog.jpeg';
 import JS from '../img/XL.jpeg';
 import Header from '../components/header/Header';
+import Title from '../components/public/Title';
 
 const Study: React.FC = () => {
   
@@ -13,9 +14,7 @@ const Study: React.FC = () => {
       <Header current={'Study'} />
       <div className='study_div-container'>
         <div className='study_div-top'>
-          <div className='study_div-title'>
-            <span>Study</span>
-          </div>
+          <Title title={'Study'}/>
         </div>
         <div className='study_div-bottom'>
           <StudyBox
