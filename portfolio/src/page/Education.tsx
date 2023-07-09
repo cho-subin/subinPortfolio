@@ -3,8 +3,12 @@ import EducationBox from '../components/education/EducationBox';
 import Header from '../components/header/Header';
 import Title from '../components/public/Title';
 import '../css/Education.css';
+import { Educations } from '../data/Education';
+import educationData from '../data/Education.json';
 
 const Education: React.FC = () => {
+
+  const education: Educations[] = educationData;
 
   return (
     <main className='education'>
@@ -14,9 +18,13 @@ const Education: React.FC = () => {
           <Title title={'Education'}/>
         </div>
         <div className='education_div-bottom'>
-          <EducationBox title1={"스파르타코딩클럽 항해99 x"} title2={'동북권ICT이노베이션스퀘어 교육'} term={"2022.06 ~ 2022.09"}/>
-          <EducationBox title1={"코리아IT학원"} title2={'프론트엔드 기초 교육'} term={"2021.11 ~ 2022.05"}/>
-          <EducationBox title1={"영진전문대"} title2={'시각디자인과'} term={"2015.03 ~ 2017.02"}/>
+          {education.map((item, idx)=>{
+            return(
+              <React.Fragment key={idx}>
+                <EducationBox title1={item.title[0]} title2={item.title[1]} term={item.term} />
+              </React.Fragment>
+            )
+          })}
         </div>
       </div>
       
