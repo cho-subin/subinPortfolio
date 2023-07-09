@@ -179,6 +179,7 @@
         height: 3rem;
         z-index: 2;
         border-bottom: 0.063rem solid rgb(240, 232, 255);
+        min-width: 320px;
 
         /* background-color: antiquewhite; */
     }
