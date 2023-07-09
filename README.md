@@ -1,6 +1,19 @@
 # subinPortfolio
 <br>
 
+## 👀 시연 영상
+
+1. 기본적인 동작<br>
+https://github.com/whtnqls124578/subinPortfolio/assets/100771469/9edd41e3-42f3-4218-9f4c-09f94b34f7e0<br>
+
+2. 반응형 적용<br>
+
+
+
+
+<br>
+<br>
+
 ## 👀 사용 스택
 
 1. react<br>
