@@ -11,8 +11,8 @@ const ProjectDetail: React.FC<Pick<Projects, 'text'>> = ({ text }) => {
             {text?.map((item,idx)=>{
                 return(
                     // React.Fragment : 추가적인 DOM 노드를 생성하지 않고 여러 개의 자식 요소를 그룹화하는 역할
-                    <React.Fragment>
-                        <span key={idx}>{item}</span><br/>
+                    <React.Fragment key={idx}>
+                        <span>{item}</span><br/>
                     </React.Fragment>
                 )
             })}

@@ -8,9 +8,9 @@ const ProjectTerm: React.FC<Pick<Projects, 'term'>> = ({ term }) => {
         <div className='project_div-right-term'>
             {term?.map((item, idx) => {
                 return (
-                    <>
-                        <span key={idx}>{item}</span>
-                    </>
+                    <React.Fragment key={idx}>
+                        <span>{item}</span>
+                    </React.Fragment >
 
                 );
             })}
