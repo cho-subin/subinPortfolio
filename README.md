@@ -14,6 +14,10 @@ https://github.com/whtnqls124578/subinPortfolio/assets/100771469/292de541-8b14-4
 
 
 
+https://github.com/whtnqls124578/subinPortfolio/assets/100771469/5bffbc38-d1cc-4689-9a84-980502639ac5
+
+
+
 
 <br>
 <br>
