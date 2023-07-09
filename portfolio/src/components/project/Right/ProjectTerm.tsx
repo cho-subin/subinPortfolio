@@ -6,7 +6,7 @@ const ProjectTerm: React.FC<Pick<Projects, 'term'>> = ({ term }) => {
     
     return (
         <div className='project_div-right-term'>
-            {term.map((item, idx) => {
+            {term?.map((item, idx) => {
                 return (
                     <>
                         <span key={idx}>{item}</span>

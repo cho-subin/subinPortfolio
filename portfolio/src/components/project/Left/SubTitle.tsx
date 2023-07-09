@@ -20,7 +20,7 @@ const SubTitle: React.FC<subTitleProps> = ({ currentIndex, onIndexChange }) => {
 
     return (
         <div className='project_div-left-subTitle'>
-            {subTitle.map((item, idx) => {
+            {subTitle?.map((item, idx) => {
                 return (
                     <>
                         <span key={idx} onClick={()=>handleBtnClick(item?.index)}
