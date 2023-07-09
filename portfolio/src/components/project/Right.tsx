@@ -9,7 +9,6 @@ import { Projects } from '../../data/Project';
 
 const Right: React.FC<Projects> = ({ title,  skills, img, term, personnel, text, github }) => {
 
-
     return (
         <div className='project_div-right'>
             <div className='project_div-right-box'>
