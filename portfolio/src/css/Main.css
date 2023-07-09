@@ -216,7 +216,7 @@
     .Main_div-introTyping::after {
         content: '';
         margin-left: .4rem;
-        border-right: 3px solid #d8d6ff;
+        border-right: 0.188rem solid #d8d6ff;
         animation: cursor .9s infinite steps(2);
         opacity: 50%;
     }
@@ -391,7 +391,7 @@
     .Main_div-introTyping::after {
         content: '';
         margin-left: .4rem;
-        border-right: 3px solid #d8d6ff;
+        border-right: 0.188rem solid #d8d6ff;
         animation: cursor .9s infinite steps(2);
         opacity: 50%;
     }
@@ -567,7 +567,7 @@
     .Main_div-introTyping::after {
         content: '';
         margin-left: .4rem;
-        border-right: 3px solid #d8d6ff;
+        border-right: 0.188rem solid #d8d6ff;
         animation: cursor .9s infinite steps(2);
         opacity: 50%;
     }

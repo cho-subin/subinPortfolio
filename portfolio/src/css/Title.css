@@ -3,15 +3,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 130px;
-        height: 80px;
-        border-bottom: 1px solid #859EFF;
+        width: 8.125rem;
+        height: 5rem;
+        border-bottom: 0.063rem solid #859EFF;
 
         /* border: 1px solid aquamarine; */
     }
 
     .title_div>span {
-        font-size: 35px;
+        font-size: 2.188rem;
         font-weight: bold;
     }
 }
@@ -21,15 +21,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 113px;
-        height: 60px;
-        border-bottom: 1px solid #859EFF;
+        width: 7.063rem;
+        height: 3.75rem;
+        border-bottom: 0.063rem solid #859EFF;
 
         /* border: 1px solid aquamarine; */
     }
 
     .title_div>span {
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: bold;
     }
 }
@@ -39,15 +39,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 113px;
-        height: 60px;
-        border-bottom: 1px solid #859EFF;
+        width: 7.063rem;
+        height: 3.75rem;
+        border-bottom: 0.063rem solid #859EFF;
 
         /* border: 1px solid aquamarine; */
     }
 
     .title_div>span {
-        font-size: 25px;
+        font-size: 1.563rem;
         font-weight: bold;
     }
 }
@@ -57,15 +57,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 60px;
-        border-bottom: 1px solid #859EFF;
+        width: 5.625rem;
+        height: 3.75rem;
+        border-bottom: 0.063rem solid #859EFF;
 
         /* border: 1px solid aquamarine; */
     }
 
     .title_div>span {
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: bold;
     }
 }
