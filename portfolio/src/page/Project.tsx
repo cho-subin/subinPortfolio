@@ -8,7 +8,7 @@ import { Projects } from '../data/Project';
 
 const Project: React.FC = () => {
 
-  const [project, setProject] = useState<Projects[]>(projectData);
+  const project:Projects[] = projectData;
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   console.log(project[currentIndex])
