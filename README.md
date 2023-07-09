@@ -4,7 +4,11 @@
 ## 👀 시연 영상
 
 1. 기본적인 동작<br>
-https://github.com/whtnqls124578/subinPortfolio/assets/100771469/9edd41e3-42f3-4218-9f4c-09f94b34f7e0<br>
+
+
+https://github.com/whtnqls124578/subinPortfolio/assets/100771469/292de541-8b14-4c11-84be-757271e70419
+
+
 
 2. 반응형 적용<br>
 
