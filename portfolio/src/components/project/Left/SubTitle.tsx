@@ -22,12 +22,12 @@ const SubTitle: React.FC<subTitleProps> = ({ currentIndex, onIndexChange }) => {
         <div className='project_div-left-subTitle'>
             {subTitle?.map((item, idx) => {
                 return (
-                    <>
-                        <span key={idx} onClick={()=>handleBtnClick(item?.index)}
+                    <React.Fragment key={idx}>
+                        <span onClick={()=>handleBtnClick(item?.index)}
                             className={currentIndex === item.index? 'active' : '' }>
                             {item.title}
                         </span><br />
-                    </>
+                    </React.Fragment>
                 )
 
             })}
