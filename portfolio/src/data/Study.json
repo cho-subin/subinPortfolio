@@ -1,0 +1,20 @@
+[
+    {
+        "img" : "/img/superlogo.svg",
+        "title" : "슈퍼코딩 스터디",
+        "term" : "2023.06~",
+        "text" : ["Javascript 공부와", "팀프로젝트 진행 예정입니다"]
+    },
+    {
+        "img" : "/img/XL.jpeg",
+        "title" : "JS deep dive 스터디",
+        "term" : "2023.06~",
+        "text" : ["직접 동아리를 만들어 여러 사람들과","주도적으로 Javascript 스터디 진행중입니다."]
+    },
+    {
+        "img" : "/img/blog.jpeg",
+        "title" : "개발 블로그",
+        "term" : "2022.06~",
+        "text" : ["기본적인 cs 지식과 프론트엔드 프로젝트와", "연습을 통한 지식들을 기록하고 있습니다."]
+    }
+]

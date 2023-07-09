@@ -4,10 +4,11 @@ interface studyText {
     img:any;
     title: string;
     term: string;
-    text: React.ReactNode; //jsx 엘리먼트 전달
+    text1: string;
+    text2: string;
 }
 
-const StudyBox: React.FC<studyText> = ({ img, title, term, text }) => {
+const StudyBox: React.FC<studyText> = ({ img, title, term, text1, text2 }) => {
     return (
         <div className='study_div-box'>
             <div className='study_div-img'>
@@ -16,7 +17,8 @@ const StudyBox: React.FC<studyText> = ({ img, title, term, text }) => {
             <div className='study_div-boxTitle'>
                 <span>{title}</span>
                 <span>{term}</span>
-                {text}
+                <span>{text1}</span>
+                <span>{text2}</span>
             </div>
         </div>
     )
