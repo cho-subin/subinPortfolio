@@ -10,9 +10,7 @@ const Title: React.FC = () => {
 
     useEffect(() => {
 
-        const completedTitle: string[] = [
-            "새로운 도전", "새로운 경험", "새로운 도전과 경험을 좋아하는"
-        ];
+        const completedTitle: string[] = [ "새로운 도전", "새로운 경험", "새로운 도전과 경험을 좋아하는" ];
 
         const typingInterval = setInterval(() => {
 
