@@ -229,10 +229,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.25rem;
+        font-size: 0.9rem;
         font-weight: 600;
         color: #7893ff;
-        margin: 1rem;
         cursor: pointer;
     }
 
