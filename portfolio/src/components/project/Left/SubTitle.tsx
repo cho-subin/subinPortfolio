@@ -24,7 +24,7 @@ const SubTitle: React.FC<subTitleProps> = ({ currentIndex, onIndexChange }) => {
                 return (
                     <>
                         <span key={idx} onClick={()=>handleBtnClick(item?.index)}
-                        className={currentIndex === item.index? 'active' : '' }>
+                            className={currentIndex === item.index? 'active' : '' }>
                             {item.title}
                         </span><br />
                     </>

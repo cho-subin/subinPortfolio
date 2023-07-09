@@ -1,24 +1,17 @@
 import React from 'react';
+import { Projects } from '../../../data/Project';
 
-interface propsSkills {
-    skills: {
-        skill1: string;
-        skill2: string;
-        skill3: string;
-        skill4?: string;
-        skill5?: string;
-    };
-}
+// Pick 유틸리티 타입을 사용하여 Projects 인터페이스에서 skills 속성만 선택
+const Skills: React.FC<Pick<Projects, 'skills'>> = ({ skills }) => {
 
-const Skills: React.FC<propsSkills> = ({skills}) => {
+    console.log('skills',skills);
 
     return (
         <div className='project_div-right-skill'>
-            {/* Object.entries를 사용하여 객체의 속성과 값을 쌍으로 가지는 배열로 변환 */}
-            {Object.entries(skills).map(([key, value]) => {
+            {skills.map((item, idx) => {
                 return (
-                    <div className='project_div-right-skillBtn' key={key}>
-                        <img src={value} alt='로고'/>
+                    <div className='project_div-right-skillBtn' key={idx}>
+                        <img src={item} alt='로고'/>
                     </div>
                 );
             })}

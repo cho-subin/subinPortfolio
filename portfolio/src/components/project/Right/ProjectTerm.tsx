@@ -1,17 +1,19 @@
 import React from 'react';
+import { Projects } from '../../../data/Project';
 
-interface propsTerm {
-    term: {
-        term1: string;
-        term2: string;
-    };
-}
-
-const ProjectTerm: React.FC<propsTerm> = ({term}) => {
+// Pick 유틸리티 타입을 사용하여 Projects 인터페이스에서 term 속성만 선택
+const ProjectTerm: React.FC<Pick<Projects, 'term'>> = ({ term }) => {
+    
     return (
         <div className='project_div-right-term'>
-            <span>{term.term1}</span>
-            <span>{term.term2}</span>
+            {term.map((item, idx) => {
+                return (
+                    <>
+                        <span key={idx}>{item}</span>
+                    </>
+
+                );
+            })}
         </div>
     )
 }
