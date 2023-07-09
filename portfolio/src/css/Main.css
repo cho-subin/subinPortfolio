@@ -530,7 +530,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 1920px;
     }
 
     .linear_gradient {
@@ -541,6 +540,7 @@
         align-items: center;
         flex-direction: column;
         background: linear-gradient(to bottom, #DAC9FF, #B6C6FF);
+        min-width: 320px;
     }
 
     .Main_div-introContainer {
@@ -562,6 +562,7 @@
         width: 100vw;
         height: 18.438rem;
         /* border: 0.063rem solid #576187; */
+        min-width: 320px;
     }
 
     .Main_div-introTyping::after {
