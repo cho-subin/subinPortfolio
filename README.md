@@ -1,4 +1,4 @@
-# subinPortfolio
+# subinPortfolio(7/4 ~ 7/10)
 <br>
 
 ## 👀 시연 영상
